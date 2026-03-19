@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<!-- DTD é o Document type definition e informa para o navegador a versão do HTML que está sendo carregada, desse modo o
-navegador pode carregar um conjunto de bibliotecas de acordo com a versão específica.-->
-
-<!-- ATRIBUTOS:
-Os atributos são do tipo chave =valor
-EX: lang = "pt-BR", isso e um atributo que pode ir em qualquer tag de conteúdo. <html lang "pt-BR"> ... </html> -->
-
 <html lang="pt-br">
-	<head>
-	  <meta charset="UTF-8">
-	  <title>Main Page</title>
-	</head>
-
-	<body>
-	  <h1>HOME</h1>
-	  <div>
-	    <a href="./pagina1.html">Page 1</a> |
-		<a href="./paginas/pagina2.html">Page 2</a> |
-		<a href="https://www.fiap.com.br" target="_blank">FIAP</a>
-	  </div>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main page</title>
+</head>
+<body>
+	<header>
+		<h1>Home</h1>
+		<nav>
+			<ul>
+				<li><a href="./pagina1.html">Page-1</a></li>
+				<li><a href="./paginas/pagina2.html">Page-2</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>página 1</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi atque dolore neque porro perferendis labore quasi, ipsam rem illo sit consequatur commodi debitis voluptatibus cum, odit, odio numquam ipsa.</p>
+			<a href="./pagina1.html">more...</a>
+		</section>
+		<section>
+			<h2>página 2</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eligendi atque dolore neque porro perferendis labore quasi, ipsam rem illo sit consequatur commodi debitis voluptatibus cum, odit, odio numquam ipsa.</p>
+			<a href="./paginas/pagina2.html">more...</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2026 Matheus F. Antonio. All rights reserved</p>
+	</footer>
+</body>
 </html>
